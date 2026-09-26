@@ -1,6 +1,6 @@
-data/
-features/
-logs/
+/data/
+/features/
+/logs/
 __pycache__/
 *.pyc
 *.pyo
