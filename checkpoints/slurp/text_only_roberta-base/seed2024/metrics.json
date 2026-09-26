@@ -1,0 +1,7 @@
+{
+  "config": "text_only_roberta-base",
+  "dataset": "slurp",
+  "seed": 2024,
+  "best_dev_acc": 0.8782508630609897,
+  "test_acc": 0.8773512769536627
+}

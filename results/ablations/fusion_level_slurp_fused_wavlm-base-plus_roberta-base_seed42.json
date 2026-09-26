@@ -1,0 +1,8 @@
+{
+  "dataset": "slurp",
+  "config": "fused_wavlm-base-plus_roberta-base",
+  "seed": 42,
+  "probability_level_test_acc": 0.8736809909772136,
+  "embedding_level_test_acc": 0.8762807768771983,
+  "delta_prob_minus_emb": -0.0025997858999846635
+}

@@ -1,0 +1,7 @@
+{
+  "config": "fused_wav2vec2-base_distilbert-base-uncased",
+  "dataset": "slurp",
+  "seed": 13,
+  "best_dev_acc": 0.8734177215189873,
+  "test_acc": 0.8807157057654076
+}

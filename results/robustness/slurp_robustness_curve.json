@@ -1,0 +1,26 @@
+[
+  {
+    "wer_target": 0.0,
+    "text_only_acc": 0.8832390273742162,
+    "fused_acc": 0.8736809909772136,
+    "audio_only_floor": 0.4547331396237957
+  },
+  {
+    "wer_target": 0.1,
+    "text_only_acc": 0.8583116684508335,
+    "fused_acc": 0.8480654534332467,
+    "audio_only_floor": 0.4547331396237957
+  },
+  {
+    "wer_target": 0.2,
+    "text_only_acc": 0.8110567365040526,
+    "fused_acc": 0.8109038079217006,
+    "audio_only_floor": 0.4547331396237957
+  },
+  {
+    "wer_target": 0.3,
+    "text_only_acc": 0.7700718764337054,
+    "fused_acc": 0.7677779476984249,
+    "audio_only_floor": 0.4547331396237957
+  }
+]

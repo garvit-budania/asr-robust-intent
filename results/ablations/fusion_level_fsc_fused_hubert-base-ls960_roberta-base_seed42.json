@@ -1,0 +1,8 @@
+{
+  "dataset": "fsc",
+  "config": "fused_hubert-base-ls960_roberta-base",
+  "seed": 42,
+  "probability_level_test_acc": 0.9997363564460849,
+  "embedding_level_test_acc": 0.9992090693382547,
+  "delta_prob_minus_emb": 0.0005272871078302321
+}

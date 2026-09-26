@@ -1,0 +1,15 @@
+{
+  "config": "fused_wav2vec2-base_roberta-base",
+  "dataset": "slurp",
+  "seed": 42,
+  "fitted_temperature": 1.165219783782959,
+  "uncalibrated": {
+    "fused_acc": 0.8790335059165955,
+    "ece": 0.019295742735266685
+  },
+  "calibrated": {
+    "fused_acc": 0.8788805603981018,
+    "ece": 0.01977110654115677
+  },
+  "accuracy_delta": -0.00015294551849365234
+}

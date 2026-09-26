@@ -1,0 +1,15 @@
+{
+  "config": "fused_wavlm-base-plus_roberta-base",
+  "dataset": "fsc",
+  "seed": 123,
+  "fitted_temperature": 0.0007182155386544764,
+  "uncalibrated": {
+    "fused_acc": 0.9997363686561584,
+    "ece": 0.006726231891661882
+  },
+  "calibrated": {
+    "fused_acc": 0.7616662383079529,
+    "ece": 0.1842661052942276
+  },
+  "accuracy_delta": -0.23807013034820557
+}

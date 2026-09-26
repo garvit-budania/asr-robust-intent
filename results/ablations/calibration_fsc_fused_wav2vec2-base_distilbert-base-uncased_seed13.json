@@ -1,0 +1,15 @@
+{
+  "config": "fused_wav2vec2-base_distilbert-base-uncased",
+  "dataset": "fsc",
+  "seed": 13,
+  "fitted_temperature": 0.8824081420898438,
+  "uncalibrated": {
+    "fused_acc": 1.0,
+    "ece": 0.010163186118006706
+  },
+  "calibrated": {
+    "fused_acc": 1.0,
+    "ece": 0.010224403813481331
+  },
+  "accuracy_delta": 0.0
+}

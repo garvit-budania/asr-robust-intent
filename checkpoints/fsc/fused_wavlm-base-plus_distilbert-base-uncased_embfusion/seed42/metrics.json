@@ -1,0 +1,7 @@
+{
+  "config": "fused_wavlm-base-plus_distilbert-base-uncased_embfusion",
+  "dataset": "fsc",
+  "seed": 42,
+  "best_dev_acc": 1.0,
+  "test_acc": 1.0
+}

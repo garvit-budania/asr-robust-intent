@@ -1,0 +1,7 @@
+{
+  "config": "fused_wavlm-base-plus_roberta-base",
+  "dataset": "slurp",
+  "seed": 13,
+  "best_dev_acc": 0.8794016110471806,
+  "test_acc": 0.8867563847683132
+}

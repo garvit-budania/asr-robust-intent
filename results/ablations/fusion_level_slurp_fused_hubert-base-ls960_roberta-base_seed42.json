@@ -1,0 +1,8 @@
+{
+  "dataset": "slurp",
+  "config": "fused_hubert-base-ls960_roberta-base",
+  "seed": 42,
+  "probability_level_test_acc": 0.8772748126624866,
+  "embedding_level_test_acc": 0.882244991588928,
+  "delta_prob_minus_emb": -0.00497017892644136
+}

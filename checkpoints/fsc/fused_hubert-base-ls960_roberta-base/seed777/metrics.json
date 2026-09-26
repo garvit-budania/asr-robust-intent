@@ -1,0 +1,7 @@
+{
+  "config": "fused_hubert-base-ls960_roberta-base",
+  "dataset": "fsc",
+  "seed": 777,
+  "best_dev_acc": 0.9987171263630532,
+  "test_acc": 0.9997363564460849
+}

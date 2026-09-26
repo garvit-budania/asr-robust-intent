@@ -1,0 +1,15 @@
+{
+  "config": "fused_wav2vec2-base_distilbert-base-uncased",
+  "dataset": "slurp",
+  "seed": 2024,
+  "fitted_temperature": 1.0594687461853027,
+  "uncalibrated": {
+    "fused_acc": 0.8801040053367615,
+    "ece": 0.04071398824453354
+  },
+  "calibrated": {
+    "fused_acc": 0.8801040053367615,
+    "ece": 0.040716543793678284
+  },
+  "accuracy_delta": 0.0
+}

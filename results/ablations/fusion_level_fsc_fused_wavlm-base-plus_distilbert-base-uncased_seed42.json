@@ -1,0 +1,8 @@
+{
+  "dataset": "fsc",
+  "config": "fused_wavlm-base-plus_distilbert-base-uncased",
+  "seed": 42,
+  "probability_level_test_acc": 1.0,
+  "embedding_level_test_acc": 1.0,
+  "delta_prob_minus_emb": 0.0
+}

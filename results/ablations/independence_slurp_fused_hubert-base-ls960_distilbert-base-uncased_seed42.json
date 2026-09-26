@@ -1,0 +1,15 @@
+{
+  "dataset": "slurp",
+  "config": "fused_hubert-base-ls960_distilbert-base-uncased",
+  "seed": 42,
+  "contingency_table": {
+    "both_correct": 2992,
+    "text_only_correct": 8563,
+    "audio_only_correct": 160,
+    "neither_correct": 1363
+  },
+  "chi2": 174.18608263910863,
+  "p_value": 9.014623854564345e-40,
+  "dof": 1,
+  "n_utterances": 13078
+}

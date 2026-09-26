@@ -1,0 +1,8 @@
+{
+  "dataset": "fsc",
+  "config": "fused_wav2vec2-base_roberta-base",
+  "seed": 42,
+  "probability_level_test_acc": 1.0,
+  "embedding_level_test_acc": 1.0,
+  "delta_prob_minus_emb": 0.0
+}

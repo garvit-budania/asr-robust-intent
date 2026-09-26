@@ -1,0 +1,15 @@
+{
+  "config": "fused_wav2vec2-base_roberta-base",
+  "dataset": "fsc",
+  "seed": 2024,
+  "fitted_temperature": 0.7900429368019104,
+  "uncalibrated": {
+    "fused_acc": 0.9997363686561584,
+    "ece": 0.019678249955177307
+  },
+  "calibrated": {
+    "fused_acc": 0.9994727373123169,
+    "ece": 0.019764814525842667
+  },
+  "accuracy_delta": -0.00026363134384155273
+}

@@ -1,0 +1,578 @@
+[
+  {
+    "dataset": "fsc",
+    "config": "fused_hubert-base-ls960_distilbert-base-uncased",
+    "seed": "123",
+    "alpha1_text": 0.37685441970825195,
+    "alpha2_audio": 0.12896259129047394,
+    "alpha3_fusion_branch": 0.4941830039024353
+  },
+  {
+    "dataset": "fsc",
+    "config": "fused_hubert-base-ls960_distilbert-base-uncased",
+    "seed": "13",
+    "alpha1_text": 0.37477320432662964,
+    "alpha2_audio": 0.12814703583717346,
+    "alpha3_fusion_branch": 0.49707984924316406
+  },
+  {
+    "dataset": "fsc",
+    "config": "fused_hubert-base-ls960_distilbert-base-uncased",
+    "seed": "2024",
+    "alpha1_text": 0.3757860064506531,
+    "alpha2_audio": 0.12894977629184723,
+    "alpha3_fusion_branch": 0.4952642023563385
+  },
+  {
+    "dataset": "fsc",
+    "config": "fused_hubert-base-ls960_distilbert-base-uncased",
+    "seed": "42",
+    "alpha1_text": 0.37926870584487915,
+    "alpha2_audio": 0.12840361893177032,
+    "alpha3_fusion_branch": 0.4923276901245117
+  },
+  {
+    "dataset": "fsc",
+    "config": "fused_hubert-base-ls960_distilbert-base-uncased",
+    "seed": "777",
+    "alpha1_text": 0.3774031698703766,
+    "alpha2_audio": 0.12766022980213165,
+    "alpha3_fusion_branch": 0.4949365258216858
+  },
+  {
+    "dataset": "fsc",
+    "config": "fused_hubert-base-ls960_distilbert-base-uncased_embfusion",
+    "seed": "42",
+    "alpha1_text": 0.1773468554019928,
+    "alpha2_audio": 0.15191379189491272,
+    "alpha3_fusion_branch": 0.6707392930984497
+  },
+  {
+    "dataset": "fsc",
+    "config": "fused_hubert-base-ls960_roberta-base",
+    "seed": "123",
+    "alpha1_text": 0.0019743177108466625,
+    "alpha2_audio": 0.0023849159479141235,
+    "alpha3_fusion_branch": 0.995640754699707
+  },
+  {
+    "dataset": "fsc",
+    "config": "fused_hubert-base-ls960_roberta-base",
+    "seed": "13",
+    "alpha1_text": 0.006294580176472664,
+    "alpha2_audio": 0.008230379782617092,
+    "alpha3_fusion_branch": 0.9854750633239746
+  },
+  {
+    "dataset": "fsc",
+    "config": "fused_hubert-base-ls960_roberta-base",
+    "seed": "2024",
+    "alpha1_text": 0.008931206539273262,
+    "alpha2_audio": 0.010997407138347626,
+    "alpha3_fusion_branch": 0.9800713658332825
+  },
+  {
+    "dataset": "fsc",
+    "config": "fused_hubert-base-ls960_roberta-base",
+    "seed": "42",
+    "alpha1_text": 0.011282062157988548,
+    "alpha2_audio": 0.013589310459792614,
+    "alpha3_fusion_branch": 0.9751285910606384
+  },
+  {
+    "dataset": "fsc",
+    "config": "fused_hubert-base-ls960_roberta-base",
+    "seed": "777",
+    "alpha1_text": 0.005769047420471907,
+    "alpha2_audio": 0.007199627812951803,
+    "alpha3_fusion_branch": 0.9870312809944153
+  },
+  {
+    "dataset": "fsc",
+    "config": "fused_hubert-base-ls960_roberta-base_embfusion",
+    "seed": "42",
+    "alpha1_text": 0.007682153023779392,
+    "alpha2_audio": 0.006940280087292194,
+    "alpha3_fusion_branch": 0.9853775501251221
+  },
+  {
+    "dataset": "fsc",
+    "config": "fused_wav2vec2-base_distilbert-base-uncased",
+    "seed": "123",
+    "alpha1_text": 0.3777563273906708,
+    "alpha2_audio": 0.1259569525718689,
+    "alpha3_fusion_branch": 0.4962867498397827
+  },
+  {
+    "dataset": "fsc",
+    "config": "fused_wav2vec2-base_distilbert-base-uncased",
+    "seed": "13",
+    "alpha1_text": 0.3772483468055725,
+    "alpha2_audio": 0.12440665811300278,
+    "alpha3_fusion_branch": 0.49834495782852173
+  },
+  {
+    "dataset": "fsc",
+    "config": "fused_wav2vec2-base_distilbert-base-uncased",
+    "seed": "2024",
+    "alpha1_text": 0.37751325964927673,
+    "alpha2_audio": 0.125831738114357,
+    "alpha3_fusion_branch": 0.49665504693984985
+  },
+  {
+    "dataset": "fsc",
+    "config": "fused_wav2vec2-base_distilbert-base-uncased",
+    "seed": "42",
+    "alpha1_text": 0.38084086775779724,
+    "alpha2_audio": 0.12498065829277039,
+    "alpha3_fusion_branch": 0.49417850375175476
+  },
+  {
+    "dataset": "fsc",
+    "config": "fused_wav2vec2-base_distilbert-base-uncased",
+    "seed": "777",
+    "alpha1_text": 0.38065963983535767,
+    "alpha2_audio": 0.12392065674066544,
+    "alpha3_fusion_branch": 0.4954196512699127
+  },
+  {
+    "dataset": "fsc",
+    "config": "fused_wav2vec2-base_distilbert-base-uncased_embfusion",
+    "seed": "42",
+    "alpha1_text": 0.19494673609733582,
+    "alpha2_audio": 0.145132377743721,
+    "alpha3_fusion_branch": 0.659920871257782
+  },
+  {
+    "dataset": "fsc",
+    "config": "fused_wav2vec2-base_roberta-base",
+    "seed": "123",
+    "alpha1_text": 0.061055175960063934,
+    "alpha2_audio": 0.035118695348501205,
+    "alpha3_fusion_branch": 0.903826117515564
+  },
+  {
+    "dataset": "fsc",
+    "config": "fused_wav2vec2-base_roberta-base",
+    "seed": "13",
+    "alpha1_text": 0.05784858763217926,
+    "alpha2_audio": 0.03490040451288223,
+    "alpha3_fusion_branch": 0.9072510004043579
+  },
+  {
+    "dataset": "fsc",
+    "config": "fused_wav2vec2-base_roberta-base",
+    "seed": "2024",
+    "alpha1_text": 0.059963833540678024,
+    "alpha2_audio": 0.03452678024768829,
+    "alpha3_fusion_branch": 0.905509352684021
+  },
+  {
+    "dataset": "fsc",
+    "config": "fused_wav2vec2-base_roberta-base",
+    "seed": "42",
+    "alpha1_text": 0.049994755536317825,
+    "alpha2_audio": 0.02741163596510887,
+    "alpha3_fusion_branch": 0.9225936532020569
+  },
+  {
+    "dataset": "fsc",
+    "config": "fused_wav2vec2-base_roberta-base",
+    "seed": "777",
+    "alpha1_text": 0.04009808599948883,
+    "alpha2_audio": 0.02317200042307377,
+    "alpha3_fusion_branch": 0.9367298483848572
+  },
+  {
+    "dataset": "fsc",
+    "config": "fused_wav2vec2-base_roberta-base_embfusion",
+    "seed": "42",
+    "alpha1_text": 0.004066886845976114,
+    "alpha2_audio": 0.0032064192928373814,
+    "alpha3_fusion_branch": 0.9927266836166382
+  },
+  {
+    "dataset": "fsc",
+    "config": "fused_wavlm-base-plus_distilbert-base-uncased",
+    "seed": "123",
+    "alpha1_text": 0.3782599866390228,
+    "alpha2_audio": 0.12404894828796387,
+    "alpha3_fusion_branch": 0.49769100546836853
+  },
+  {
+    "dataset": "fsc",
+    "config": "fused_wavlm-base-plus_distilbert-base-uncased",
+    "seed": "13",
+    "alpha1_text": 0.3772536814212799,
+    "alpha2_audio": 0.12394345551729202,
+    "alpha3_fusion_branch": 0.4988027811050415
+  },
+  {
+    "dataset": "fsc",
+    "config": "fused_wavlm-base-plus_distilbert-base-uncased",
+    "seed": "2024",
+    "alpha1_text": 0.3787648379802704,
+    "alpha2_audio": 0.12367893010377884,
+    "alpha3_fusion_branch": 0.4975561797618866
+  },
+  {
+    "dataset": "fsc",
+    "config": "fused_wavlm-base-plus_distilbert-base-uncased",
+    "seed": "42",
+    "alpha1_text": 0.3812953233718872,
+    "alpha2_audio": 0.12355081737041473,
+    "alpha3_fusion_branch": 0.49515387415885925
+  },
+  {
+    "dataset": "fsc",
+    "config": "fused_wavlm-base-plus_distilbert-base-uncased",
+    "seed": "777",
+    "alpha1_text": 0.3801461458206177,
+    "alpha2_audio": 0.123088039457798,
+    "alpha3_fusion_branch": 0.4967658221721649
+  },
+  {
+    "dataset": "fsc",
+    "config": "fused_wavlm-base-plus_distilbert-base-uncased_embfusion",
+    "seed": "42",
+    "alpha1_text": 0.21978405117988586,
+    "alpha2_audio": 0.18476788699626923,
+    "alpha3_fusion_branch": 0.5954480767250061
+  },
+  {
+    "dataset": "fsc",
+    "config": "fused_wavlm-base-plus_roberta-base",
+    "seed": "123",
+    "alpha1_text": 0.05960645526647568,
+    "alpha2_audio": 0.025616083294153214,
+    "alpha3_fusion_branch": 0.9147774577140808
+  },
+  {
+    "dataset": "fsc",
+    "config": "fused_wavlm-base-plus_roberta-base",
+    "seed": "13",
+    "alpha1_text": 0.0877765640616417,
+    "alpha2_audio": 0.03990399092435837,
+    "alpha3_fusion_branch": 0.8723194599151611
+  },
+  {
+    "dataset": "fsc",
+    "config": "fused_wavlm-base-plus_roberta-base",
+    "seed": "2024",
+    "alpha1_text": 0.04858415201306343,
+    "alpha2_audio": 0.02120460569858551,
+    "alpha3_fusion_branch": 0.9302112460136414
+  },
+  {
+    "dataset": "fsc",
+    "config": "fused_wavlm-base-plus_roberta-base",
+    "seed": "42",
+    "alpha1_text": 0.05855884030461311,
+    "alpha2_audio": 0.02546861208975315,
+    "alpha3_fusion_branch": 0.9159724712371826
+  },
+  {
+    "dataset": "fsc",
+    "config": "fused_wavlm-base-plus_roberta-base",
+    "seed": "777",
+    "alpha1_text": 0.04088067635893822,
+    "alpha2_audio": 0.01802409067749977,
+    "alpha3_fusion_branch": 0.9410952925682068
+  },
+  {
+    "dataset": "fsc",
+    "config": "fused_wavlm-base-plus_roberta-base_embfusion",
+    "seed": "42",
+    "alpha1_text": 0.02210054360330105,
+    "alpha2_audio": 0.02040381357073784,
+    "alpha3_fusion_branch": 0.9574956893920898
+  },
+  {
+    "dataset": "slurp",
+    "config": "fused_hubert-base-ls960_distilbert-base-uncased",
+    "seed": "123",
+    "alpha1_text": 0.053308457136154175,
+    "alpha2_audio": 0.010144179686903954,
+    "alpha3_fusion_branch": 0.9365473985671997
+  },
+  {
+    "dataset": "slurp",
+    "config": "fused_hubert-base-ls960_distilbert-base-uncased",
+    "seed": "13",
+    "alpha1_text": 0.026941047981381416,
+    "alpha2_audio": 0.0058016786351799965,
+    "alpha3_fusion_branch": 0.9672572612762451
+  },
+  {
+    "dataset": "slurp",
+    "config": "fused_hubert-base-ls960_distilbert-base-uncased",
+    "seed": "2024",
+    "alpha1_text": 0.11488449573516846,
+    "alpha2_audio": 0.01862921565771103,
+    "alpha3_fusion_branch": 0.8664863109588623
+  },
+  {
+    "dataset": "slurp",
+    "config": "fused_hubert-base-ls960_distilbert-base-uncased",
+    "seed": "42",
+    "alpha1_text": 0.015150780789554119,
+    "alpha2_audio": 0.0036112258676439524,
+    "alpha3_fusion_branch": 0.981238067150116
+  },
+  {
+    "dataset": "slurp",
+    "config": "fused_hubert-base-ls960_distilbert-base-uncased",
+    "seed": "777",
+    "alpha1_text": 0.17547960579395294,
+    "alpha2_audio": 0.026124313473701477,
+    "alpha3_fusion_branch": 0.7983959913253784
+  },
+  {
+    "dataset": "slurp",
+    "config": "fused_hubert-base-ls960_distilbert-base-uncased_embfusion",
+    "seed": "42",
+    "alpha1_text": 0.2248801738023758,
+    "alpha2_audio": 0.04307926446199417,
+    "alpha3_fusion_branch": 0.7320405840873718
+  },
+  {
+    "dataset": "slurp",
+    "config": "fused_hubert-base-ls960_roberta-base",
+    "seed": "123",
+    "alpha1_text": 0.007761525921523571,
+    "alpha2_audio": 0.0032821192871779203,
+    "alpha3_fusion_branch": 0.9889563918113708
+  },
+  {
+    "dataset": "slurp",
+    "config": "fused_hubert-base-ls960_roberta-base",
+    "seed": "13",
+    "alpha1_text": 0.001329019432887435,
+    "alpha2_audio": 0.0005973833031021059,
+    "alpha3_fusion_branch": 0.9980735778808594
+  },
+  {
+    "dataset": "slurp",
+    "config": "fused_hubert-base-ls960_roberta-base",
+    "seed": "2024",
+    "alpha1_text": 0.0003249581786803901,
+    "alpha2_audio": 0.0001541935052955523,
+    "alpha3_fusion_branch": 0.9995208978652954
+  },
+  {
+    "dataset": "slurp",
+    "config": "fused_hubert-base-ls960_roberta-base",
+    "seed": "42",
+    "alpha1_text": 0.0004805616626981646,
+    "alpha2_audio": 0.00022931702551431954,
+    "alpha3_fusion_branch": 0.9992901086807251
+  },
+  {
+    "dataset": "slurp",
+    "config": "fused_hubert-base-ls960_roberta-base",
+    "seed": "777",
+    "alpha1_text": 0.004846176598221064,
+    "alpha2_audio": 0.0020409957505762577,
+    "alpha3_fusion_branch": 0.9931128621101379
+  },
+  {
+    "dataset": "slurp",
+    "config": "fused_hubert-base-ls960_roberta-base_embfusion",
+    "seed": "42",
+    "alpha1_text": 0.001409083604812622,
+    "alpha2_audio": 0.001069915248081088,
+    "alpha3_fusion_branch": 0.9975209832191467
+  },
+  {
+    "dataset": "slurp",
+    "config": "fused_wav2vec2-base_distilbert-base-uncased",
+    "seed": "123",
+    "alpha1_text": 0.08046425133943558,
+    "alpha2_audio": 0.013423461467027664,
+    "alpha3_fusion_branch": 0.9061122536659241
+  },
+  {
+    "dataset": "slurp",
+    "config": "fused_wav2vec2-base_distilbert-base-uncased",
+    "seed": "13",
+    "alpha1_text": 0.12190677970647812,
+    "alpha2_audio": 0.01847006008028984,
+    "alpha3_fusion_branch": 0.8596231341362
+  },
+  {
+    "dataset": "slurp",
+    "config": "fused_wav2vec2-base_distilbert-base-uncased",
+    "seed": "2024",
+    "alpha1_text": 0.12020974606275558,
+    "alpha2_audio": 0.018592385575175285,
+    "alpha3_fusion_branch": 0.8611978888511658
+  },
+  {
+    "dataset": "slurp",
+    "config": "fused_wav2vec2-base_distilbert-base-uncased",
+    "seed": "42",
+    "alpha1_text": 0.015474793501198292,
+    "alpha2_audio": 0.003499669022858143,
+    "alpha3_fusion_branch": 0.9810255169868469
+  },
+  {
+    "dataset": "slurp",
+    "config": "fused_wav2vec2-base_distilbert-base-uncased",
+    "seed": "777",
+    "alpha1_text": 0.17970222234725952,
+    "alpha2_audio": 0.025713056325912476,
+    "alpha3_fusion_branch": 0.7945846915245056
+  },
+  {
+    "dataset": "slurp",
+    "config": "fused_wav2vec2-base_distilbert-base-uncased_embfusion",
+    "seed": "42",
+    "alpha1_text": 0.2650822699069977,
+    "alpha2_audio": 0.04150569811463356,
+    "alpha3_fusion_branch": 0.6934120655059814
+  },
+  {
+    "dataset": "slurp",
+    "config": "fused_wav2vec2-base_roberta-base",
+    "seed": "123",
+    "alpha1_text": 0.01008780300617218,
+    "alpha2_audio": 0.004064006730914116,
+    "alpha3_fusion_branch": 0.9858481884002686
+  },
+  {
+    "dataset": "slurp",
+    "config": "fused_wav2vec2-base_roberta-base",
+    "seed": "13",
+    "alpha1_text": 0.002050769282504916,
+    "alpha2_audio": 0.0008712021517567337,
+    "alpha3_fusion_branch": 0.9970780611038208
+  },
+  {
+    "dataset": "slurp",
+    "config": "fused_wav2vec2-base_roberta-base",
+    "seed": "2024",
+    "alpha1_text": 0.0007182148401625454,
+    "alpha2_audio": 0.000328245252603665,
+    "alpha3_fusion_branch": 0.9989534616470337
+  },
+  {
+    "dataset": "slurp",
+    "config": "fused_wav2vec2-base_roberta-base",
+    "seed": "42",
+    "alpha1_text": 0.017415283247828484,
+    "alpha2_audio": 0.006935570389032364,
+    "alpha3_fusion_branch": 0.9756491780281067
+  },
+  {
+    "dataset": "slurp",
+    "config": "fused_wav2vec2-base_roberta-base",
+    "seed": "777",
+    "alpha1_text": 0.005001069977879524,
+    "alpha2_audio": 0.0020038248039782047,
+    "alpha3_fusion_branch": 0.9929950833320618
+  },
+  {
+    "dataset": "slurp",
+    "config": "fused_wav2vec2-base_roberta-base_embfusion",
+    "seed": "42",
+    "alpha1_text": 0.00815442856401205,
+    "alpha2_audio": 0.007080211769789457,
+    "alpha3_fusion_branch": 0.9847654104232788
+  },
+  {
+    "dataset": "slurp",
+    "config": "fused_wavlm-base-plus_distilbert-base-uncased",
+    "seed": "123",
+    "alpha1_text": 0.08038157224655151,
+    "alpha2_audio": 0.0133438715711236,
+    "alpha3_fusion_branch": 0.9062745571136475
+  },
+  {
+    "dataset": "slurp",
+    "config": "fused_wavlm-base-plus_distilbert-base-uncased",
+    "seed": "13",
+    "alpha1_text": 0.1217222809791565,
+    "alpha2_audio": 0.018384631723165512,
+    "alpha3_fusion_branch": 0.8598930835723877
+  },
+  {
+    "dataset": "slurp",
+    "config": "fused_wavlm-base-plus_distilbert-base-uncased",
+    "seed": "2024",
+    "alpha1_text": 0.12049578875303268,
+    "alpha2_audio": 0.018421443179249763,
+    "alpha3_fusion_branch": 0.8610827922821045
+  },
+  {
+    "dataset": "slurp",
+    "config": "fused_wavlm-base-plus_distilbert-base-uncased",
+    "seed": "42",
+    "alpha1_text": 0.01556394062936306,
+    "alpha2_audio": 0.0035053198225796223,
+    "alpha3_fusion_branch": 0.980930745601654
+  },
+  {
+    "dataset": "slurp",
+    "config": "fused_wavlm-base-plus_distilbert-base-uncased",
+    "seed": "777",
+    "alpha1_text": 0.01182287186384201,
+    "alpha2_audio": 0.0027892065700143576,
+    "alpha3_fusion_branch": 0.9853878617286682
+  },
+  {
+    "dataset": "slurp",
+    "config": "fused_wavlm-base-plus_distilbert-base-uncased_embfusion",
+    "seed": "42",
+    "alpha1_text": 0.23218336701393127,
+    "alpha2_audio": 0.04235232621431351,
+    "alpha3_fusion_branch": 0.7254643440246582
+  },
+  {
+    "dataset": "slurp",
+    "config": "fused_wavlm-base-plus_roberta-base",
+    "seed": "123",
+    "alpha1_text": 0.010416427627205849,
+    "alpha2_audio": 0.004025636240839958,
+    "alpha3_fusion_branch": 0.9855579733848572
+  },
+  {
+    "dataset": "slurp",
+    "config": "fused_wavlm-base-plus_roberta-base",
+    "seed": "13",
+    "alpha1_text": 0.006189160514622927,
+    "alpha2_audio": 0.0025454373098909855,
+    "alpha3_fusion_branch": 0.9912653565406799
+  },
+  {
+    "dataset": "slurp",
+    "config": "fused_wavlm-base-plus_roberta-base",
+    "seed": "2024",
+    "alpha1_text": 0.00040293013444170356,
+    "alpha2_audio": 0.00018595150322653353,
+    "alpha3_fusion_branch": 0.9994111061096191
+  },
+  {
+    "dataset": "slurp",
+    "config": "fused_wavlm-base-plus_roberta-base",
+    "seed": "42",
+    "alpha1_text": 0.001697939122095704,
+    "alpha2_audio": 0.000725549878552556,
+    "alpha3_fusion_branch": 0.9975765347480774
+  },
+  {
+    "dataset": "slurp",
+    "config": "fused_wavlm-base-plus_roberta-base",
+    "seed": "777",
+    "alpha1_text": 0.004991237074136734,
+    "alpha2_audio": 0.002038443461060524,
+    "alpha3_fusion_branch": 0.9929702877998352
+  },
+  {
+    "dataset": "slurp",
+    "config": "fused_wavlm-base-plus_roberta-base_embfusion",
+    "seed": "42",
+    "alpha1_text": 0.002436446025967598,
+    "alpha2_audio": 0.0019085495732724667,
+    "alpha3_fusion_branch": 0.9956549406051636
+  }
+]

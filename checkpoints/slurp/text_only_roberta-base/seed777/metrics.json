@@ -1,0 +1,7 @@
+{
+  "config": "text_only_roberta-base",
+  "dataset": "slurp",
+  "seed": 777,
+  "best_dev_acc": 0.8852704257767549,
+  "test_acc": 0.885838813274201
+}

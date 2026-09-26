@@ -1,0 +1,7 @@
+{
+  "config": "fused_wav2vec2-base_roberta-base",
+  "dataset": "slurp",
+  "seed": 123,
+  "best_dev_acc": 0.8771001150747986,
+  "test_acc": 0.8794922771065912
+}

@@ -1,0 +1,7 @@
+{
+  "config": "fused_hubert-base-ls960_distilbert-base-uncased",
+  "dataset": "fsc",
+  "seed": 123,
+  "best_dev_acc": 1.0,
+  "test_acc": 1.0
+}

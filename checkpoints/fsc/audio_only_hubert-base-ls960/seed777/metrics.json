@@ -1,0 +1,7 @@
+{
+  "config": "audio_only_hubert-base-ls960",
+  "dataset": "fsc",
+  "seed": 777,
+  "best_dev_acc": 0.8072482360487492,
+  "test_acc": 0.9198523596098075
+}

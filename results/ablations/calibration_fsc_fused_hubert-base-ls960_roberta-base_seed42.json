@@ -1,0 +1,15 @@
+{
+  "config": "fused_hubert-base-ls960_roberta-base",
+  "dataset": "fsc",
+  "seed": 42,
+  "fitted_temperature": 0.40323811769485474,
+  "uncalibrated": {
+    "fused_acc": 0.9997363686561584,
+    "ece": 0.0007605547434650362
+  },
+  "calibrated": {
+    "fused_acc": 0.9910361170768738,
+    "ece": 0.0037549976259469986
+  },
+  "accuracy_delta": -0.008700251579284668
+}

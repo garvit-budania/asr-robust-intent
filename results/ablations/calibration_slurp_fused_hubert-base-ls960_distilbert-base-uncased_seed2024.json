@@ -1,0 +1,15 @@
+{
+  "config": "fused_hubert-base-ls960_distilbert-base-uncased",
+  "dataset": "slurp",
+  "seed": 2024,
+  "fitted_temperature": 0.8733131885528564,
+  "uncalibrated": {
+    "fused_acc": 0.8820920586585999,
+    "ece": 0.03874322772026062
+  },
+  "calibrated": {
+    "fused_acc": 0.8822450041770935,
+    "ece": 0.0377570316195488
+  },
+  "accuracy_delta": 0.00015294551849365234
+}

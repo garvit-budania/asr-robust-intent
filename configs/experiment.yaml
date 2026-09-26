@@ -1,0 +1,32 @@
+# Single source of truth for the frozen-encoder pipeline.
+# Matches the paper exactly: no fine-tuning section, no deployment section.
+
+seeds: [13, 42, 123, 777, 2024]
+
+datasets:
+  slurp:
+    root: "data/slurp"
+    granularity: "scenario"
+    # IMPORTANT: run `python3 src/data/derive_audio_len.py` first and update
+    # this to the printed p99 recommendation (real utterances are almost
+    # certainly much shorter than 10s -- this directly controls extraction speed).
+    max_audio_seconds: 8
+  fsc:
+    root: "data/fsc"
+    max_audio_seconds: 5
+
+max_text_len_ceiling: 128
+
+encoder_grid:
+  audio: ["facebook/wav2vec2-base", "facebook/hubert-base-ls960", "microsoft/wavlm-base-plus"]
+  text: ["distilbert-base-uncased", "roberta-base"]
+
+robustness:
+  wer_targets: [0.0, 0.10, 0.20, 0.30]
+  whisper_sizes: ["tiny", "base", "small"]
+  synthetic_corruption_supplement: true
+
+paths:
+  checkpoints: "checkpoints"
+  results: "results"
+  logs: "logs"

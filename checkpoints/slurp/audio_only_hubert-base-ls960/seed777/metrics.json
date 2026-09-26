@@ -1,0 +1,7 @@
+{
+  "config": "audio_only_hubert-base-ls960",
+  "dataset": "slurp",
+  "seed": 777,
+  "best_dev_acc": 0.44476409666283084,
+  "test_acc": 0.4519039608502829
+}

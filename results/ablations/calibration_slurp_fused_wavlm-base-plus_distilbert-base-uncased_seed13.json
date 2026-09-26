@@ -1,0 +1,15 @@
+{
+  "config": "fused_wavlm-base-plus_distilbert-base-uncased",
+  "dataset": "slurp",
+  "seed": 13,
+  "fitted_temperature": 1.0050389766693115,
+  "uncalibrated": {
+    "fused_acc": 0.8795687556266785,
+    "ece": 0.041659869253635406
+  },
+  "calibrated": {
+    "fused_acc": 0.8795687556266785,
+    "ece": 0.04166305065155029
+  },
+  "accuracy_delta": 0.0
+}

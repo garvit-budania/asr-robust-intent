@@ -1,0 +1,7 @@
+{
+  "config": "fused_hubert-base-ls960_distilbert-base-uncased",
+  "dataset": "slurp",
+  "seed": 42,
+  "best_dev_acc": 0.877560414269275,
+  "test_acc": 0.8811744915124636
+}

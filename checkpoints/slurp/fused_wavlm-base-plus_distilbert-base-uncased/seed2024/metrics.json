@@ -1,0 +1,7 @@
+{
+  "config": "fused_wavlm-base-plus_distilbert-base-uncased",
+  "dataset": "slurp",
+  "seed": 2024,
+  "best_dev_acc": 0.8749136939010357,
+  "test_acc": 0.8797216699801192
+}

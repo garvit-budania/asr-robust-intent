@@ -1,0 +1,7 @@
+{
+  "config": "fused_hubert-base-ls960_roberta-base",
+  "dataset": "slurp",
+  "seed": 13,
+  "best_dev_acc": 0.8807825086306099,
+  "test_acc": 0.882244991588928
+}
